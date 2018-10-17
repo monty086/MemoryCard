@@ -1,10 +1,10 @@
-
+﻿
 
 (function () {
     let data = null
     // 加载数据，显示页面
     $.ajax({
-        url: '../data/data.json',
+        url: './data/data.json',
         success: res => {
             if (res && res.length > 0) {
                 data = res;
