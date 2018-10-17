@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet prefetch" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/index.css">
+    <title>memory-card</title>
+</head>
+
+<body>
+
+
+    <!-- 主页面信息 -->
+    <div class="content">
+
+        <!-- 最后展示的页面 -->
+
+        <section class='c-box' style='display: none'>
+            <ul>
+                <li val='1'>Stars: </li>
+                <li val='2'>Moves: </li>
+                <li val='3'>Timer: </li>
+            </ul>
+            <div class="fa fa-close"></div>
+        </section>
+
+        <!-- 头部信息 -->
+        <header>
+            <h1>Memory Game</h1>
+        </header>
+        <!-- 头部下的时间计时牌 -->
+        <section>
+            <ul class="stars">
+                <li> <i class="fa fa-star"></i></li>
+                <li> <i class="fa fa-star"></i></li>
+                <li> <i class="fa fa-star"></i></li>
+            </ul>
+            <!-- 移动了多少步 -->
+            <span class="moves">0</span> Moves
+            &nbsp&nbsp&nbsp&nbsp
+            <!-- 时间 -->
+            Timer: <span class="timer">0</span>second
+            <!-- 重新计时 -->
+            &nbsp&nbsp
+            <div class="restart">
+                <i class="fa fa-repeat"></i>
+            </div>
+        </section>
+        <!-- 操作区域 -->
+        <ul class="deck">
+            <li class="card">
+                <i class="fa fa-diamond"></i>
+            </li>
+        </ul>
+    </div>
+</body>
+
+</html>
+<script src='js/jquery-1.11.2.min.js'></script>
+<script src='js/index.js'></script>
